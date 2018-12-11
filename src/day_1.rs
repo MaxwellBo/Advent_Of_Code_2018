@@ -31,6 +31,5 @@ pub fn parts(input: &str) -> (i32, i32) {
             return (part_1, frequency)
         }
     }
-
-    (-1, -1)
+    unreachable!()
 }
